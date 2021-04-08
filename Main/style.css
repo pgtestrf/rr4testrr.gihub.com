@@ -1,0 +1,212 @@
+*{
+    text-decoration: none;
+    margin: 0;
+    transition: all .3s linear;
+
+}
+
+.container{
+    max-width: 1670px;
+    margin: 0 auto;
+}
+
+.header{
+    height: 115px;
+    padding-top: 15px;
+    background: #9AA25C;
+}
+
+
+.nav__links{
+    color: #fff;
+    font-family: Lobster;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    margin-right: 94px;
+    transition: all .3s;
+}
+
+.nav__links:last-child{
+    margin: 0;
+}
+
+.nav__links:hover{
+    color: #D7EA43;
+    font-size: 30px;
+}
+
+.nav__links:active{
+    
+    color: black;
+}
+
+.header__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.obgbg{
+    width: 500px;
+    height: 150px;
+    background-color: #fff;
+    opacity: 0;
+    padding-top: 130px;
+}
+
+.otext{
+    font-family: Lobster;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 45px;
+
+    text-align: center;
+
+    color: #000000;
+   
+}
+
+.obg{
+    text-decoration: none;
+    width: 470px;
+    height: 350px;
+    
+}
+
+.obg:hover .obgbg{
+    opacity: 0.7;
+}
+.obg1{
+    margin-top: 10px;
+    display: block;
+    width: 500px;
+    height: 280px;
+    background: url('./img/Рыбы.png')center no-repeat;
+    background-size: cover;
+}
+.obg2{
+    margin-top: 10px;
+    display: block;
+    width: 500px;
+    height: 280px;
+    background: url('./img/Комариное.png')center no-repeat;
+    background-size: cover;
+}
+.obg3{
+    margin-top: 10px;
+    display: block;
+    width: 500px;
+    height: 280px;
+    background: url('./img/Вьюнок.png')center no-repeat;
+    background-size: cover;
+}
+.obg4{
+    margin-top: 10px;
+    display: block;
+    width: 500px;
+    height: 280px;
+    background: url('./img/Острог.png')center no-repeat;
+    background-size: cover;
+}
+.obg5{
+    margin-top: 10px;
+    display: block;
+    width: 500px;
+    height: 280px;
+    background: url('./img/Белая.png')center no-repeat;
+    background-size: cover;
+}
+.obg6{
+    margin-top: 10px;
+    display: block;
+    width: 500px;
+    height: 280px;
+    background: url('./img/Куори.png')center no-repeat;
+    background-size: cover;
+}
+.obg7{
+    margin-top: 10px;
+    display: block;
+    width: 500px;
+    height: 280px;
+    background: url('./img/Медвежка.png')center no-repeat;
+    background-size: cover;
+}
+.obg8{
+    margin-top: 10px;
+    display: block;
+    width: 500px;
+    height: 280px;
+    background: url('./img/Волхов.png')center no-repeat;
+    background-size: cover;
+}
+.obg9{
+    margin-top: 10px;
+    display: block;
+    width: 500px;
+    height: 280px;
+    background: url('./img/Донец.png')center no-repeat;
+    background-size: cover;
+}
+.obg10{
+    margin-top: 10px;
+    display: block;
+    width: 500px;
+    height: 280px;
+    background: url('./img/Сура.png')center no-repeat;
+    background-size: cover;
+}
+
+.obg11{
+    margin-top: 10px;
+    display: block;
+    width: 500px;
+    height: 280px;
+    background: url('./img/Янтарное.png')center no-repeat;
+    background-size: cover;
+}
+.obg12{
+    margin-top: 10px;
+    display: block;
+    width: 500px;
+    height: 280px;
+    background: url('./img/ладога.png')center no-repeat;
+    background-size: cover;
+}
+.obg13{
+    margin-top: 10px;
+    display: block;
+    width: 500px;
+    height: 280px;
+    background: url('./img/Ахтуба.png')center no-repeat;
+    background-size: cover;
+}
+.obg14{
+    margin-top: 10px;
+    display: block;
+    width: 500px;
+    height: 280px;
+    background: url('./img/Тунгуска.png')center no-repeat;
+    background-size: cover;
+}
+.obg15{
+    margin-top: 10px;
+    display: block;
+    width: 500px;
+    height: 280px;
+    background: url('./img/Дачный.png')center no-repeat;
+    background-size: cover;
+}
+
+.main__inner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+body{
+    padding-bottom: 40px;
+}
